@@ -13,32 +13,34 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Deployment & Setup](#deployment--setup)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+Create a landing page that closely resembles the final design.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+Your users should be able to:
+
+- View the optimal site design for their device's screen size
+- See the hover state of all interactive elements on the page
 
 
 ### Screenshot
 
 <p align="center">
-  <img src="./public/solution-desktop-light.jpg" width="400" alt="desktopLight" />
+  <img src="./public/desktop-solution.jpeg" width="400" align="top" alt="desktop" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/solution-desktop-dark.jpg" width="300" alt="desktopdark" />
+  <img src="./public/mobile-solution.jpeg" width="200" alt="mobile" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/solution-mobile-light.jpg" width="200" alt="mobilelight" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./public/solution-mobile-dark.jpg" width="200" alt="mobiledark" />
+  <img src="./public/sidebar.jpeg" width="200" align="top" alt="mobiledark" />
 </p>
 
-## Authorsi, completemos las
+## Author
 
 - Website - [Carla Johanna](https://github.com/devcjoha)
 - Frontend Mentor - [@devcjoha](https://www.frontendmentor.io/profile/devcjoha)
@@ -47,8 +49,8 @@ Users should be able to:
 
 ## 🚀 Live Deploys
 
-- Solution URL: [code]()
-- Live Site URL: [Deploy-Github-Pages]()
+- 📂 [Solution on GitHub](https://github.com/devcjoha/sunnyside-agency-landing-page)  
+- 🌐 [Live Site on GitHub Pages](https://devcjoha.github.io/sunnyside-agency-landing-page/)
 
 
 ## My process
@@ -73,60 +75,28 @@ Users should be able to:
 
 - React (component-based architecture).
 - Vite (development and packaging).
-- Functional components and hooks (useState, useEffect).
 - Tailwind custom propertie, theme dark/light.
 - Responsive design.
+- Vite plugin svgr.
 
-
-
-### 👩🏻‍🦱 What I learned
-* 
+### 👩🏻‍💻 What I learned
+- I used **Power Toys tools**, which were very useful for taking measurements, adjusting colors, and more.  
+- I reinforced my knowledge of **flexbox grids**, improving layout consistency and responsiveness.  
+- I discovered a new way to work with **SVG images**, applying styles directly and optimizing their use in components.  
+- I enjoyed the design adjustment process, especially refining details for better visual balance.  
+- The **sidebar design** was a challenge, but I managed to solve it quickly with a clean approach. 
 
 
 ### 💥 Continued development
-* 
+- Add **animations** for smoother user experience.  
+- Improve **accessibility** (ARIA labels, keyboard navigation).  
+- Explore **Next.js** for SSR/SSG and SEO improvements.
 
 ### 🔗 Useful resources
 * Tailwind docs
 * GitHub Pages deployment guides
 * Vite + React integration tips
-
-## 🚀 Deployment & Environment Setup
-
-### 🧪 Entornos
-
-- **Local**: Use `/` as the base for routes.
-
-- **Production (GitHub Pages)**: Use `/` as the base.
-
-### ⚙️ Scripts disponibles
-
-```bash
-# Ejecuta el proyecto en desarrollo local
-npm run dev
-
-# Build estándar (no recomendado para GitHub Pages)
-npm run build
-
-# Build para GitHub Pages (usa base name correcto)
-npm run build:gh
-
-# Vista previa del build
-npm run preview
-```
-
-### 🧠 Why this configuration?
-
-## Asset Handling for GitHub Pages
-* To ensure logos and images load correctly in production:
-* All SVG logos are stored in public/assets/.
-* Each extension in data.json uses only the filename for its logo, like "logo-devlens.svg".
-* In the hook, image paths are constructed using:
-
-```js
-logo: `${import.meta.env.BASE_URL}assets/${item.logo}`;
-```
-This ensures compatibility with GitHub Pages, which serves your app from a subpath like /browser-extension-manager-ui/. Using import.meta.env.BASE_URL dynamically adjusts the asset path based on the deployment environment.
+* Power Toys
 
 
 ## Author
